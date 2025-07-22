@@ -44,7 +44,7 @@
 .card__img {
   width: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   aspect-ratio: auto 65/82;
 }
 
@@ -54,15 +54,16 @@
 
 @media (max-width: 480px) {
   .card {
-    height: 700px;
+    height: 790px;
   }
   .card__title {
     font-size: 22px;
   }
   .card__title::before {
-    left: -90px;
+    left: -120px;
+    top: -125px;
   }
   .card__desc {
     font-size: 16px;
   }
-}/*# sourceMappingURL=card.css.map */
+}
